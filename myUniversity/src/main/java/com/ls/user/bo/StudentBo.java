@@ -3,6 +3,7 @@ package com.ls.user.bo;
 public class StudentBo {
 
 	private Integer id;
+	private String sex;
 	private String name;
 	private Integer age;
 	public Integer getId() {
@@ -22,6 +23,12 @@ public class StudentBo {
 	}
 	public void setAge(Integer age) {
 		this.age = age;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
 	}
 	
 	
