@@ -6,6 +6,6 @@
   </head>  
     
   <body>  
-    ${stu.name}  
+    ${result}  
   </body>  
 </html> 
